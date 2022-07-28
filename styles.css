@@ -1,0 +1,72 @@
+*{
+    box-sizing:border-box;
+   
+}
+nav{
+    background: black;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    justify-content: flex-end; 
+    color: white;
+    width: 100% 
+}
+li{
+    width: 12%;
+    display: flex;
+    justify-content:space-evenly;
+}
+ header>h1{
+    color: white;
+    margin-left: 150px;
+    margin-top: 200px;
+    font-size: 400%;
+}
+/* Section01 */
+.impact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: black;;
+}
+.impact > h2{
+   color: white;
+   font-size: 40px;
+}
+.mission{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+}
+.mission > h2{
+   color: black;
+   font-size: 40px;
+}
+/* Section02 */
+
+.howItWorks{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    height: 500px;
+}
+.howItWorks > h2{
+   color: white;
+   font-size: 40px;
+}
+.howItWorks > *{
+    color: white;
+}
+.howItWorks >span{
+    color: white;
+    margin-top: 150px;
+}
