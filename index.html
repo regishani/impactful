@@ -4,46 +4,209 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="normalize.css" />
-    
-    <title>impactfull</title>
+    <script src="https://kit.fontawesome.com/1f773fc75d.js" crossorigin="anonymous"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <title>makeItMVP</title>
 </head>
 <body>
-    <nav>
-      <div>
-          <img scr = ".img/logo.png" alt = "logo">
-      </div>
-      <ul>
-          <li>How it works</li>
-          <li>Benefits</li>
-          <li>Price</li>
-          <li>Join our team</li>
-          <li>For Nonprofits</li>
-      </ul>
-    </nav> 
-    <header>
-        <h1> Bringing impact <br> should be fun </h1>
-    </header> 
-      
+    <section class = "row">
+        <nav>
+            <div>
+                <span>makeItMVP</span>
+            </div>
+            <ul class="nav__menu">
+                <li class = "nav__link">About</li>
+                <li class = "nav__link">How it works</li>
+                <li class = "nav__link">Contact Us</li>
+                <li class = "nav__link">Login</li>
+                <li class = " nav__link nav__link--blue">Signup</li>
+            </ul>
+        </nav> 
+    </section>
+
+    <section class = "row header__section">
+        <div> 
+            <h1 class="header__page--title">
+                A space where ideas and Bootcamp grads unite to build Meaningful Viable Products
+            </h1>
+            <p class = "header__page--description">Make it MVP is a collaborative community where ideas meet skilled creators to build products. From ideation through development, collaborative communities consisting of founders, developers, 
+                and designers will be guided through the lifecycle of product development to establish a meaningful viable product. </p>
+            <div class = "header__page--enrollEmail">
+                <input type="email" placeholder="Your Email Address">
+                <button class = "btn__enroll">Start Now</button>
+            </div>
+            <div class="header__featuredApps">
+                <p class="header__featuredApps--title">FEATURED APPS</p>
+                <img class ="header__featuredApps--image" src="img/companies.jpg" alt="companies">
+            </div>
+            
+        </div>
+        <div>
+            <figure class="header__page--image">
+                <img src="img/main_pic.svg" alt="Bootcamp grads & Organizations">
+            </figure>
+        </div>
+    </section>
+
+    <section class="feature__bf feature__builder">
+        <h5>Features</h5>
+        <h2>Are you a Builder?</h2>
+        <p class="feature__bf--info">During your time at Make It MVP, you will work together in a cross-functional team to build a meaningful viable product. You will contribute to the entire product cycle from conception to launch</p>
+        <div class="feature__bf--allIcons">
+            <div class="feature__bf--icons">
+                <span class="bf--icon">
+                    <i class="fa-regular fa-lightbulb fa-2x"></i>
+
+                </span>
+                <span class ="bf--text">
+                    <span class="bf--title">Ideate</span>
+                    <p class="bf--description">Before your first sprint, you will meet the founder of your app for a Pitch meeting.</p>
+                </span>
+            </div>
+            <div class="feature__bf--icons">
+                <span class="bf--icon">
+                    <i class="fa-solid fa-pen-to-square fa-2x"></i>
+
+                </span>
+                <span class ="bf--text">
+                    <span class="bf--title">Plan It</span>
+                    <p class="bf--description">Your team will kick off the first sprint with a plan of action and continue each sprint the same way.</p>
+                </span>
+            </div>
+            <div class="feature__bf--icons">
+                <span class="bf--icon">
+                    <i class="fa-solid fa-rocket fa-2x"></i>
+
+                </span>
+                <span class ="bf--text">
+                    <span class="bf--title">Build It</span>
+                    <p class="bf--description">From User Research all the way through Development your team will work together to create a fully testable product.</p>
+                </span>
+            </div>
+            <div class="feature__bf--icons">
+                <span class="bf--icon">
+                    <i class="fa-solid fa-font fa-2x"></i>
+
+                </span>
+                <span class ="bf--text">
+                    <span class="bf--title">Pitch It</span>
+                    <p class="bf--description">After four complete sprints, you will present the MVP to the founder</p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="feature__bf feature__founder">
+        <h2>Are you a founder?</h2>
+        <p class="feature__bf--info">From Ideation to pitch, the Make it MVP team will guide you through the entire process. Weekly meetings with your team. Mentor sessions with our staff and professionals. Community-wide workshops for all founders.</p>
+        <div class="feature__bf--allIcons">
+            <div class="feature__bf--icons">
+                <span class="bf--icon">
+                    <i class="fa-solid fa-tower-broadcast fa-2x"></i>
+
+                </span>
+                <span class ="bf--text">
+                    <span class="bf--title">Dream It</span>
+                    <p class="bf--description">Tell us the problem you are solving through technology. </p>
+                </span>
+            </div>
+            <div class="feature__bf--icons">
+                <span class="bf--icon">
+                    <i class="fa-solid fa-droplet fa-2x"></i>
+
+                </span>
+                <span class ="bf--text">
+                    <span class="bf--title">Design It</span>
+                    <p class="bf--description">Design your product. Be prepared to defend your vision.</p>
+                </span>
+            </div>
+            <div class="feature__bf--icons">
+                <span class="bf--icon">
+                    <i class="fa-solid fa-laptop-code fa-2x"></i>
+
+                </span>
+                <span class ="bf--text">
+                    <span class="bf--title">Build It</span>
+                    <p class="bf--description">Engage in the Building process. Define features by importance. See the product come to life!</p>
+                </span>
+            </div>
+            <div class="feature__bf--icons">
+                <span class="bf--icon">
+                    <i class="fa-solid fa-award fa-2x"></i>
+
+                </span>
+                <span class ="bf--text">
+                    <span class="bf--title">Launch It</span>
+                    <p class="bf--description">Pitch your idea with your team. Engage in User Testing. Start your fundraising.</p>
+                </span>
+            </div>
+        </div>
+    </section>
     
-    <section>
-        <div class = "impact">
-            <h2 > 1200 organizations <br> tech for social good</h2>
+    <section class=" row section__howItWorks">
+        <h2>How It Works</h2>
+        <div class="ideation">
+            <div class="ideation--text">
+                <h2 class="ideation--title">Ideate</h2>
+                <p class="ideation--description"> Start with an idea. Work collaboratively to define the problem. Write out assumptions. 
+                    Develop a solution with necessary features. Collaborate with UX researchers 
+                    to conduct an analysis of competition and market.</p>
+            </div>
+
+            <div class="ideation--image">
+                <img class ="ideation__image--sized" src="img/ideate.svg" alt="Ideate">
+            </div>
         </div>
-        <div class = "mission">
-            <span>Our mission</span>
-            <h2>Transforming services for social good with tech</h2>
+
+        <div class="ideation"> 
+            <div class="ideation--image">
+                <img class ="ideation__image--sized" src="img/collaborate.svg" alt="Collaborate">
+            </div>
+            <div class="ideation--text">
+                <h2 class="ideation--title">Collaborate</h2>
+                <p class="ideation--description"> Your idea is now a product. Connect with your development team. Design your prototype. Turn your product into code.</p>
+            </div>
+        </div>
+
+        <div class="ideation">
+            <div class="ideation--text">
+                <h2 class="ideation--title">ideation</h2>
+                <p class="ideation--description">The product is now ready to pitch. Introduce your meaningful viable product to the world. Start your pitching.</p>
+            </div>
+
+            <div class="ideation--image">
+                <img class ="ideation__image--sized" src="img/launch.svg" alt="MVP">
+            </div>
         </div>
     </section>
-    <section class = howItWorks>
-        <span> How it works </span>
-        <h2> Experience the joy of making impact with tech </h2>
-        <p> Collaborate with software engineers to strengthen your mission <br> Growing your organization online has never been easier. </p>
-       
 
+    
+  
 
-    </section>
-    <script>src="main.js"</script>
+    <div class=" row ideation"> 
+        <div class="ideation--image">
+            <img class ="ideation__image--sized" src="img/review.svg" alt="Review">
+        </div>
+        <div class="ideation--text">
+            <span>TESTIMONIALS</span>
+            <h2 class="ideation--title">What our builders are saying?</h2>
+            <p class="ideation--description"> Your idea is now a product. Connect with your development team. Design your prototype. Turn your product into code.</p>
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
